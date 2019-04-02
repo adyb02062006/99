@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center><img id="adelya" src="f1.jpg" height="200" width="200"></center>
+<script>
+    i=0
+    function jjj () {
+        i++
+    if(i>15){
+         i=1
+    }
+        document.getElementById("adelya").src="f"+i+".jpg"
+    }
+    setInterval(function(){
+        jjj()},100)
+</script>
+</body>
+</html>
