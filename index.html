@@ -8,15 +8,13 @@
 <center><img id="adelya" src="f1.jpg" height="200" width="200"></center>
 <script>
     i=0
-    function jjj () {
-        i++
+    setInterval(function(){
+         i++
     if(i>15){
          i=1
     }
         document.getElementById("adelya").src="f"+i+".jpg"
-    }
-    setInterval(function(){
-        jjj()},100)
+    },100)
 </script>
 </body>
 </html>
